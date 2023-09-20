@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #292929ff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: flex-start; /* Align rows to the left */
+}
+
+.column {
+    flex: 1;
+    margin-right: 10px;
+	height: 40px;
+}
+
+.column:last-child {
+    margin-right: 0;
+}
+
+.textbox {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e1e1e1ff;
+	color: #fff;
+	background-color: #505050ff;
+	 
+}
+
+.select {
+    width: 100%;
+    padding: 10px;
+	color: #e1e1e1ff;
+	background-color: #505050ff;
+}
+
+.action-button {
+    background-color: #505050ff;
+    color: #e1e1e1ff;
+    border: 1px solid #e1e1e1ff;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+	height: 37px;
+}
+#search_song_btn {
+	height: 37px;
+}
+.action-button img {
+	height: 15px;
+}
+.action-button:hover {
+    background-color: #505050ff;
+}
+
+.line {
+    border: none;
+    border-top: 1px solid #ccc;
+	flex: 1;
+    margin: 0 10px;
+	background-color: #505050ff;
+	
+}
+.action-button_zero {
+    background-color: #505050ff;
+    color: #e1e1e1ff;
+    border: 1px solid #e1e1e1ff;
+    padding: 10px 20px;
+    cursor: pointer;
+	
+}
+.action-button_zero img {
+	height: 40px;
+	width: 40px;
+}
+#profile_text {
+	flex: 3;
+	text-align: left;
+	color: #e1e1e1ff;
+	font: 36px;
+	
+}
